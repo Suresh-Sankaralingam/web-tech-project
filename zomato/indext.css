@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;;
+}
+#header{
+    width: 100%;
+    height:430px;
+    background-image: url(/bi.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#features{
+    width: 1100px;
+    height: 72px;
+    display: flex;
+    margin-left: 208px;
+    font-weight: 300;
+    font-size: 13px
+}
+#features>a{
+    color: white;
+    margin-top: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+} 
+#link{
+    margin-left: 450px;
+}
+#get{
+    padding-left: 35px;
+}
+#zomato{
+    width: 1519.2px;
+    height: 222px;
+    position: absolute;
+}
+#logo{
+    width: 290px;
+    height: 60px;
+    position: absolute;
+    top: 76px;
+    left: 590px;
+    background-image: url(/logo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#words{
+    width:1519.2px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    position: absolute;
+    margin-top:  163px;
+    margin-right: 22px;
+}
+#bar{
+    position: absolute;
+    width: 775px;
+    height: 60px;
+    border-radius: 0.8rem;
+    margin-top: 242px;
+    margin-left: 376px;
+    background-color: white;
+    padding-left: 40px;
+    font-size: 15px;
+}
+#icon{
+    position:absolute;
+    color: rgb(255, 126, 139);
+    font-size: 25px;
+    left: 10px;
+    top: 15px;
+}
+#discover{
+    color: white;
+}
+select{
+    position: absolute;
+    top: 15px;
+    left:35px;
+    width: 176px;
+    height: 25.4px;
+    color: grey;
+    border: none;
+    outline: 0;
+}
+#pipe
+{
+    position: absolute;
+    left: 215px;
+    top: 20px;
+    height: 18px;
+    width: 2px;
+    background-color: grey;
+    opacity: .6;
+
+}
+#lense{
+    position: absolute;
+    top: 18px;
+    left: 230px;
+    font-size: 25px;
+    color: gray;
+    opacity: 0.7;
+}
+#secondinput{
+    position: absolute;
+    top: 2px;
+    left: 265px;
+    width: 548px;
+    height: 56px;
+    border-radius: 0.8rem;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+#middle{
+    width: 1300px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    margin-left: 126px;
+}
+#firstcontainer{
+    width: 1300px;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#chenna,#dining,#party{
+    margin-top: 10px;
+    margin: 10px;
+    width: 355px;
+    height: 192px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#chenna{
+    background-image: url(./chenna\ plate\ 1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dining{
+    background-image: url(/table.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#party{
+    background-image: url(/dj.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#belowimage1{
+    position: absolute;
+    top: 678px;
+    left: 223px;
+    width: 333px;
+    padding: 10px 10px 16px;
+    height:55px;
+    border: 1px rgb(216, 209, 209)solid;
+}
+#belowimage2{
+    position: absolute;
+    top: 678px;
+    left: 598px;
+    width: 333px;
+    height:55px;
+    padding: 10px 10px 16px;
+    border: 1px rgb(216, 209, 209)solid;
+}
+#belowimage3{
+    position: absolute;
+    top: 678px;
+    left: 972px;
+    width: 325px;
+    height:55px;
+    padding: 10px 10px 16px;
+    border: 1px rgb(216, 209, 209) solid;
+    padding-left: 20px;
+}
+h4{
+    color: #363636;
+    opacity: 1;
+}
+
+#secmid{
+    width: 1300px;
+    height: 100px;
+    margin-left: 126px;
+}
+.collection{
+    font-weight:500 ;
+    font-size: 36px;
+    margin-left: 98px;
+}
+.explore{
+    width: 1200px;
+    height: 27px;
+    font-size: 18px;
+    color: rgb(54, 54, 54);
+    margin-left: 98px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+#all{
+    position: absolute;
+    top: 800px;
+    left: 1150px;
+    width: 240px;
+    height: 23.6px;
+    padding: 3px;
+}
+#al{
+    color:#E03546;
+    font-size:1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+#triangle{
+    position: absolute;
+    top: 17px;
+    left: 216px;
+    bottom: 6px;
+    color:#E03546;
+}
+#collection1{
+    width: 1300px;
+    height: 380px;
+    margin-left: 126px;
+    display: flex;
+    flex-direction: row;
+}
+#inner{
+    width: 1100px;
+    height: 350px;
+    margin-left: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+#inner>div{
+    width: 260px;
+    height: 320px;
+    border-radius: 8px;
+    
+}
+#firstimg{
+    background-image: url(/1st.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#secimg{
+    background-image: url(/2nd.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+#thrimg{
+    background-image: url(/3rd.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+#fourthimg{
+    background-image: url(/4th.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.over{
+    position: absolute;
+    top: 1125px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+.outerpop{
+    width: 1300px;
+    height: 500px;
+    margin-left: 126px;
+}
+.pop{
+    width: 689.69px;
+    height: 43.2px;
+    font-size: 36px;
+    color: #363636;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 96px;
+    margin-top: 20px;
+}
+.place{
+    width: 1100px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 96px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.place>div{
+    width: 356.66px;
+    height: 90px;
+} 
+.box{
+    width: 320px;
+    height: 78px;
+    border: 1px gray solid;
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.box>p{
+    padding: 15px;
+    font-weight: 300;
+    font-size: inherit;
+}
+.tri{
+    position: absolute;
+    left: 290px;
+    top: 32px;
+}
+#outerapp{
+    width: 1300px;
+    height: 500px;
+    margin-left: 126px;
+
+}
+#phonediv{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    left: 350px;
+    margin-top: 25px;
+}
+.zoapp{
+    background-image: url(/zoapp.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 98px;
+    width: 100%;
+    
+}
+#getzomato{
+    width: 450px;
+    height: 56px;
+    position: absolute;
+    top: 1784px;
+    left: 635px;
+}
+#belowzomato{
+    width: 250px;
+    height: 57px;
+    color: #363636;
+    position: absolute;
+    top: 1849px;
+    left: 635px;
+}
+#radio{
+    width: 225px;
+    height: 38.2px;
+    position: absolute;
+    left: 635px;
+    top: 1924px;
+}
+#emailbox{
+    width: 292px;
+    height: 48px;
+    position: absolute;
+    left: 635px;
+    top: 1976px;
+    padding-left: 20px;
+}
+.gettheazomo{
+    font-size: 2.9rem;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+}
+.wewil{
+    width: 80%;
+    font-size: 15px;
+    color: rgb(54, 54, 54);
+    line-height: 1.2;
+}
+.ph{
+    position: absolute;
+    left: 120px;
+    top: 9px;
+
+}
+.phonee{
+    position: absolute;
+    top: 6px;
+    left: 140px;
+
+}
+.emaill{
+    position:absolute;
+    top: 6px;
+    left: 28px;
+}
+.mail{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.sharebutton{
+    width: 150px;
+    height: 48px;
+    background-color: rgb(239, 79, 95);
+    border-radius: 10px;
+    outline: 0;
+    border: 1px white solid;
+    position:absolute;
+    top: 1978px;
+    left: 956px;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+.down{
+    position: absolute;
+    left: 636px;
+    top: 2042px;
+}
+.google{
+    position: absolute;
+    left: 638px;
+    top: 2081px;
+    width:137px;
+    height: 40px;
+}
+.apple{
+    position: absolute;
+    left: 802px;
+    top: 2081px;
+    width: 137px;
+    height: 40px;
+}
+.explo{
+    width: 1300px;
+    height: 370px;
+
+    margin: 0px;
+    margin-left: 126px;
+}
+.innerexplo{
+    width: 1100px;
+    height: 360px;
+    margin-left: 98px;
+    display: flex;
+    flex-direction: column;
+}
+.tab{
+    margin-top: 10px;
+    border-radius: 7px;
+    width: 1100px;
+    height: 60px;
+    border: 1px rgb(199, 196, 196) solid;
+}
+.tab>p{
+    padding-left: 10px;
+    padding-top: 20px;
+    color: #1c1c1c;
+    margin: 0;
+}
+.tab>h2{
+    
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(54, 54, 54);
+}
+.triangleicon{
+    position: absolute;
+    left: 1289px;
+    top: 2579px;
+}
+.triangleicon1{
+    position: absolute;
+    left: 1289px;
+    top: 2435px;
+}
+.triangleicon2{
+    position: absolute;
+    left: 1289px;
+    top: 2365px;
+}
+.triangleicon3{
+    position: absolute;
+    left: 1289px;
+    top: 2508px;
+}
+.footerdiv{
+    width: 1300px;
+    height: 420px;
+    margin-left: 126px;
+}
+.footer{
+    width:1100px;
+    height: 65px;
+    margin-left: 96px;
+}
+.india{
+    width: 110px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 1210px;
+    top: 2646px;
+}
+.eng{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px black solid;
+    position: absolute;
+    left: 1080px;
+    top: 2646px;
+}
+.earth{
+    position: absolute;
+    top: 2658px;
+    left: 1219px;
+}
+.wordings{
+    width: 1100px;
+    height: 350px;
+    margin-left: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.wordings>div{
+    width: 200px;
+    height: 320px;
+    margin-top: 10px;
+}
+.div1>h1{
+    font-size: 15px;
+    margin: 0px 0px 1.2rem;
+    font-weight: 500;
+}
+.div2>h1{
+    font-size: 15px;
+    margin: 0px 0px 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.div3>h1{
+    font-size: 15px;
+    margin: 0px 0px 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.div4>h1{
+    font-size: 15px;
+    margin: 0px 0px 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.div5>h1{
+    font-size: 15px;
+    margin: 0px 0px 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.div1>h3{
+    font-size:12px;
+    line-height: 2.1rem;
+    margin: 0.5rem 0px;
+    box-sizing: inherit;
+    font-weight: 300;
+    color: #696969;
+}
+.div2>h3{
+    font-size:12px;
+    line-height: 2.1rem;
+    margin: 0.5rem 0px;
+    box-sizing: inherit;
+    font-weight: 300;
+    color: #696969;
+}
+
+.div3>h3{
+    font-size: 12px;
+    line-height: 2.1rem;
+    margin: 0.5rem 0px;
+    box-sizing: inherit;
+    font-weight: 300;
+    color: #696969;
+}
+.div4>h3{
+    font-size: 12px;
+    line-height: 2.1rem;
+    margin: 0.5rem 0px;
+    box-sizing: inherit;
+    font-weight: 300;
+    color: #696969;
+}
+.div5>h3{
+    font-size: 12px;
+    margin-top: 10px;font-size: 1.1rem;
+    line-height: 2.1rem;
+    margin: 0.5rem 0px;
+    box-sizing: inherit;
+    font-weight: 300;
+    color: #696969;
+}
+.lastdiv{
+    width: 1270px;
+    height: 120px;
+    margin-left: 156px;
+}
+.lastdiv>p{
+    font-size: 1rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    font-weight: 300;
+}
+.div5>i{
+    margin-left: 15px;
+}
+#go{
+    width: 137px;
+    height: 40px;
+    position: absolute;
+    top: 2783px;
+    left:1146px;
+}
+ #ap{
+    width: 137px;
+    height: 40px;
+    position: absolute;
+    top: 2835px;
+    left: 1146px;
+} 
+.angle1{
+    position: absolute;
+    top: 2657px;
+    left: 1300px;
+
+}
+.angle2{
+    position: absolute;
+    top: 2657px;
+    left: 1165px;
+}
